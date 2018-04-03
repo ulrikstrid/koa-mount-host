@@ -1,6 +1,7 @@
 import Koa = require("koa");
+import request = require("supertest");
+
 import mount from "../lib";
-import request from "supertest";
 
 describe("koa-rewrite-host", () => {
   it("can rewrite localhost:4010 to /localhost", done => {
