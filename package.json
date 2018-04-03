@@ -1,0 +1,39 @@
+{
+  "name": "koa-mount-host",
+  "description": "Mount a Koa app on a specified host",
+  "repository": "ulrikstrid/koa-mount-host",
+  "author": "Ulrik Strid",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --watch",
+    "test:ci": "jest --coverage --ci --testResultsProcessor='jest-junit'"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "mount",
+    "host"
+  ],
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^22.2.2",
+    "@types/koa": "^2.0.44",
+    "@types/koa-compose": "^3.2.2",
+    "@types/supertest": "^2.0.4",
+    "jest": "^22.4.3",
+    "jest-junit": "^3.6.0",
+    "koa": "^2.5.0",
+    "supertest": "^3.0.0",
+    "ts-jest": "^22.4.2",
+    "typescript": "^2.8.1"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "dependencies": {
+    "koa-compose": "^4.0.0"
+  }
+}
