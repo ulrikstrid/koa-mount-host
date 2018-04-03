@@ -3,7 +3,7 @@
   "description": "Mount a Koa app on a specified host",
   "repository": "ulrikstrid/koa-mount-host",
   "author": "Ulrik Strid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "tsc",
     "test": "jest --watch",
