@@ -1,5 +1,5 @@
-import Koa from "koa";
-import compose from "koa-compose";
+import Koa = require("koa");
+import compose = require("koa-compose");
 
 /**
  * mount `app` on `host`.

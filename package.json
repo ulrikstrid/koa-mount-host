@@ -3,18 +3,13 @@
   "description": "Mount a Koa app on a specified host",
   "repository": "ulrikstrid/koa-mount-host",
   "author": "Ulrik Strid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "tsc",
     "test": "jest --watch",
     "test:ci": "jest --coverage --ci --testResultsProcessor='jest-junit'"
   },
-  "keywords": [
-    "koa",
-    "middleware",
-    "mount",
-    "host"
-  ],
+  "keywords": ["koa", "middleware", "mount", "host"],
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "license": "MIT",
